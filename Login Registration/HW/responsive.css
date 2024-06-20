@@ -1,0 +1,86 @@
+@media screen and (max-width:1470px){
+    .box{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+@media screen and (max-width:1080px){
+    .card{
+        gap: 200px;
+    }
+}
+@media screen and (max-width:949px){
+    .card_left h3 {
+        font-size: 25px;
+    }
+    .card_left h2 {
+        font-size: 40px;
+    }
+    .card_left img {
+        margin-top: -5%;
+        margin-left: 0%;
+    }
+
+}  
+@media screen and (max-width:948px){
+    .card{
+        gap: 140px;
+    }
+}
+@media screen and (max-width:898px){
+    .card{
+        gap: 80px;
+    }
+}
+@media screen and (max-width:830px){
+    .card{
+        gap: 30px;
+    }
+}
+@media screen and (max-width:780px){
+    /* .click input {
+        padding: 20px 80px 19px 26px;
+    }
+    button {
+        padding: 18px 120px 17px 130px;
+    }  */
+}
+@media screen and (max-width:710px){
+    .card_left h3 {
+        font-size: 20px;
+    }
+    .card_left h2 {
+        font-size: 35px;
+    }
+    .card_right h3 {
+        font-size: 25px;
+    }
+    .click input {
+        padding: 20px 50px 19px 26px;
+    }
+    button {
+        padding: 18px 110px 17px 110px;
+    } 
+    .card{
+        gap: 20px;
+    }
+}
+@media screen and (max-width:667PX){
+    .card{
+        flex-direction: column;
+    }
+    button {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .icon {
+        margin-top: 40px;
+        justify-content: start;
+        margin-left: 23%;
+        padding-bottom: 30px;
+    }
+    .icon img {
+        width: 20px;
+        height: 20px;
+    }
+}

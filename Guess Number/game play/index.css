@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --blue: #342db7;
+
+}
+
+.box {
+    /* max-width: 1170px; */
+    height: 100vh;
+    background-color: var(--blue);
+}

@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #000;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --blue: #4D47C3;
+    --purple: #A7A3FF;
+    --grey: #B5B5B5;
+    --purple2: #F0EFFF;
+    --grey2: #B0B0B0;
+
+}
+
+.box {
+    max-width: 1440px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.text h5 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 31px;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    gap: 321px;
+
+}
+
+.card_left {
+    margin-top: 233px;
+
+}
+
+.card_left h2 {
+    font-size: 50px;
+    font-weight: 600;
+
+}
+
+.card_left h3 {
+    font-size: 35px;
+    font-weight: 500;
+
+}
+
+.card_left p {
+    margin-top: 53px;
+    max-width: 308px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.card_left p strong {
+    color: var(--blue);
+
+}
+
+.card_left img {
+    display: flex;
+    margin-top: -30%;
+    margin-left: 80%;
+
+}
+
+.card_right {
+    margin-top: 113px;
+
+}
+
+.card_right h3 {
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.click {
+    max-width: 369px;
+    margin-top: 30px;
+
+}
+
+.click img {
+    width: 17px;
+    height: 17px;
+
+}
+
+.card_right h6 {
+    color: var(--grey2);
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 34px;
+    text-align: end;
+
+}
+
+.card_right button {
+    width: 100%;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 18px 168px 17px 158px;
+    border-radius: 9px;
+    background: var(--blue);
+    box-shadow: 0px 4px 61px 0px rgba(77, 71, 195, 0.40);
+    border-radius: 9px;
+    border: none;
+    margin-top: 46px;
+
+}
+
+.card_right p,
+.card_right2 p {
+    color: var(--grey);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 54px;
+
+}
+
+.card_right .icon,
+.card_right2 .icon {
+    display: flex;
+    gap: 21px;
+    margin-top: 45px;
+    align-items: center;
+    justify-content: center;
+
+}
+.card_right .icon img,
+.card_right2 .icon img{
+    width: 41.457px;
+    height: 41.457px;
+
+}
+
+.pass {
+    max-width: 369px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    height: 62px;
+    border-radius: 8px;
+    background: #F0EFFF;
+    margin-top: 30px;
+
+}
+
+.pass input,
+.click input {
+    border: none;
+    background: none;
+    outline: none;
+    
+}
+
+.click input {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 62px;
+    border-radius: 8px;
+    background: #F0EFFF;
+    border-radius: 8px;
+
+}
+.card_right2 {
+    margin-top: 39px;
+
+}
+.card_right2 h3 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 10px;
+
+}
+.pass2 input,
+.click2 input {
+    border: none;
+    background: none;
+    outline: none;
+    
+}
+
+.std_inp{
+    margin-top: 18px;
+
+}
+
+.click2 input {
+    width: 100%;
+    padding-left: 20px;
+    height: 62px;
+    border-radius: 8px;
+    background: #F0EFFF;
+    border: none;
+
+}
+.click2 {
+    max-width: 369px;
+    
+}
+.pass2{ 
+    max-width: 369px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    /* height: 62px; */
+    border-radius: 8px;
+    background: #F0EFFF;
+    margin-top: 18px;
+
+
+}
+/* .pass2 input{
+    height: 62px;
+    width: 100%;
+    max-width: 369px;
+    display: flex; */
+
+
+.card_right2 button {
+    width: 100%;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 18px 168px 17px 158px;
+    border-radius: 9px;
+    background: var(--blue);
+    box-shadow: 0px 4px 61px 0px rgba(77, 71, 195, 0.40);
+    border: none;
+    margin-top: 18px;
+
+}
+
+
+.register_page{
+    display: none;
+}
